@@ -1,0 +1,12 @@
+{
+    "sdk": [
+        {
+            "name": "IoT_LINK_1.0.0",
+            "version": "1.0.0",
+            "versionCode": 3,
+            "description": "IoT LINK 1.0",
+            "url": "https://developer.obs.cn-north-4.myhuaweicloud.com/idea/sdk/IoT_LINK_1.0.0.zip",
+            "urlLog": "https://github.com/LiteOS/LiteOS_Lab/releases/tag/v1.0.4"
+        }
+    ]
+}

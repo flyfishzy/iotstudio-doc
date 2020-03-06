@@ -1,0 +1,15 @@
+{
+  "name": "iotstudio-doc",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "gitbook build",
+    "prepublish": "npm run build",
+    "publish": "git subtree push --prefix=_book origin gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flyfishzy/iotstudio-doc.git"
+  },
+  "author": "",
+  "license": "BSD"
+}

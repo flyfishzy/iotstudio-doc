@@ -31,6 +31,7 @@
 
 ## 烧录
 1. 将开发板用数据线与电脑连接（视需要安装对应开发板的硬件驱动）
+   > ST-LINK驱动可在此下载:https://www.st.com/en/development-tools/stsw-link009.html
 2. 点击VSCode底部工具栏的‘Download’按钮  
 ![](./images/toolbar.png)
 3. 等待系统烧录完成

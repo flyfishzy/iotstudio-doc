@@ -19,6 +19,9 @@
 IoT Studio 首次启动时会自动从网络下载最新的SDK包以及gcc依赖环境，请确保您的网络可用。  
 安装过程中请不要关闭窗口，耐心等待。安装完成后重启VSCode使插件生效。  
 ![](./images/install-sdk.png)
+
+> 若您无法访问外部网络导致自动下载SDK失败，可从此处[手动下载](https://developer.obs.cn-north-4.myhuaweicloud.com/idea/sdk/IoT_LINK.zip)SDK，下载完成后解压至 C:\Users\用户名\\.iotlink\sdk
+
 ### 手动配置
 您也可以手动配置需要的依赖环境。  
 1. 点击VSCode底部的Home按钮

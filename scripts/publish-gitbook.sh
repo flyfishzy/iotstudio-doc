@@ -1,7 +1,4 @@
-#!/bin/bash
-
-# install the plugins and build the static site
-gitbook install && gitbook build
+#!/bin/bash -e
 
 # checkout to the gh-pages branch
 git checkout gh-pages

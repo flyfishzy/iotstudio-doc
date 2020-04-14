@@ -20,4 +20,6 @@
 * [配置管理](tutorial/settings.md)
   * [SDK配置](tutorial/settings.md#SDK配置)
   * [SDK管理](tutorial/settings.md#SDK管理)
-
+* [串口工具](tutorial/serialport.md)
+  * [标准模式](tutorial/serialport.md#标准模式)
+  * [OMIP模式](tutorial/serialport.md#OMIP模式)

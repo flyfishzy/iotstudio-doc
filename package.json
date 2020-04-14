@@ -9,10 +9,9 @@
   "scripts": {
     "build": "gitbook build",
     "prepublish": "npm run build",
-    "publish": "git subtree push --prefix=_book origin gh-pages"
+    "publish": "./scripts/publish-gitbook.sh"
   },
-  
   "devDependencies": {
-    "gitbook-cli":"^2.3.2"
+    "gitbook-cli": "^2.3.2"
   }
 }

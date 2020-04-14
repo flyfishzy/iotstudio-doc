@@ -9,7 +9,7 @@
   "scripts": {
     "build": "gitbook build",
     "prepublish": "npm run build",
-    "publish": "./scripts/publish-gitbook.sh"
+    "publish": "scripts\\publish-gitbook.bat"
   },
   "devDependencies": {
     "gitbook-cli": "^2.3.2"

@@ -1,12 +1,12 @@
 
 # 工程调试
-IoT Studio 默认工程已配置好调试参数，键盘按F5键即可启动调试。
+IoT Link Studio 默认工程已配置好调试参数，键盘按F5键即可启动调试。
 > 调试前请确保工程已正确[编译](project.md#编译)和[烧录](project.md#烧录)到开发板
 
 ![](./images/debug.png)
 
 ## 调试模式
-IoT Studio 支持Launch和Attach两种调试模式:
+IoT Link Studio 支持Launch和Attach两种调试模式:
 * **Launch模式** 会自动重启开发板，并停止在main函数
 * **Attach模式** 不会重启开发板，停止在当前运行代码行
 
@@ -14,7 +14,7 @@ IoT Studio 支持Launch和Attach两种调试模式:
    ![](./images/launch.png)
 
 ## 调试配置
-打开‘IoT Studio设置’--‘工程设置’--‘调试器’  
+打开‘IoT Link 设置’--‘工程设置’--‘调试器’  
 具体配置请参考[烧录](./project.md#烧录)部分。
 
 ## 调试进阶

@@ -4,7 +4,8 @@
 ## 安装 IoT Link Studio 插件
 
 * 方式一：从应用商店安装（推荐）
-  * 打开VSCode 插件应用商店，搜索 iot link 然后点击安装
+  * 打开VSCode 插件应用商店，搜索 iotlink 找到IoT Link Studio，然后点击安装  
+  ![](./images/install-market.png)
 * 方式二：从本地安装
   1. 打开VSCode，选择插件栏
   2. 点击EXTENSIONS后面的...按钮

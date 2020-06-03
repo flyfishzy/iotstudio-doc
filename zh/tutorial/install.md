@@ -36,21 +36,21 @@ IoT Link Studio 首次启动时会自动从网络下载最新的SDK包以及gcc�
 
 ## FAQ
 
-* Q: 安装完插件后底部没有Home按钮?  
-  A: 常见的原因是您使用了Linux/Mac版的VSCode，目前插件还不支持。
+* **Q:** 安装完插件后底部没有Home按钮?  
+  **A:** 常见的原因是您使用了Linux/Mac版的VSCode，目前插件还不支持。
 
-* Q: 新建的工程编译失败?  
-  A: 检查'用户设置'--'工具链'里的GCC工具目录是否配置正确，如果插件自动下载安装的GCC，路径为C:\Users\用户名\\.iotlink\tools\gcc-arm-none-eabi\bin。若此处没有配置，则需要点击提示里的链接下载安装GCC，安装完成后填写GCC目录，一般为 C:\Program Files (x86)\GNU Tools Arm Embedded\9 2019-q4-major\bin  
+* **Q:** 新建的工程编译失败?  
+  **A:** 检查'用户设置'--'工具链'里的GCC工具目录是否配置正确，如果插件自动下载安装的GCC，路径为C:\Users\用户名\\.iotlink\tools\gcc-arm-none-eabi\bin。若此处没有配置，则需要点击提示里的链接下载安装GCC，安装完成后填写GCC目录，一般为 C:\Program Files (x86)\GNU Tools Arm Embedded\9 2019-q4-major\bin  
 
-* Q: 工程烧录失败?  
-  A: 失败可能的原因较多，可以做如下的尝试：  
+* **Q:** 工程烧录失败?  
+  **A:** 失败可能的原因较多，可以做如下的尝试：  
      1. 检查开发板和电脑是否正确连接
      2. 重新插拔USB线
      3. 检查工程设置--'调试器'中的Adapter是否配置正确，OpenOCD类型的注意检查参数，JLink类型的检查设备名称是否和开发板匹配
-     4. 尝试重新安装STLink驱动
+     4. 尝试重新安装STLink驱动  
 
-* Q: VSCode提示检测到#include错误，请更新includePath?  
-  A: 该错误为VSCode找不到gcc编译器的头文件，但并不影响实际的编译功能。如果想修复可打开当前工程的.vscode/c_cpp_properties.json，检查配置的includePath是否正确。一个参考的配置如下：
+* **Q:** VSCode提示检测到#include错误，请更新includePath?  
+  **A:** 该错误为VSCode找不到gcc编译器的头文件，但并不影响实际的编译功能。如果想修复可打开当前工程的.vscode/c_cpp_properties.json，检查配置的includePath是否正确。一个参考的配置如下：
   ```json
   "includePath": 
   [

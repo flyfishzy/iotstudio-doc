@@ -41,7 +41,7 @@ For specific configuration, please refer to [Download](./project.md#Download).
 ![](../images/disassembly2.png)
 3. In the Debug Panel - Advanced area, click ‘Disassemble function’ and enter the function name to view the disassembly code of the corresponding function.
 
-### View memory
+### Memory
 1. In the Debug Panel - Advanced area, click ‘View Memory’.  
 ![](../images/disassembly.png)
 2. Enter the corresponding memory start address and length, you can view the memory information of the device in real time.  

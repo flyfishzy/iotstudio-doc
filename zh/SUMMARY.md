@@ -4,6 +4,7 @@
 * [安装](tutorial/install.md)
   * [安装插件](tutorial/install.md#)
   * [首次启动配置](tutorial/install.md#首次启动配置)
+  * [FAQ](tutorial/install.md#FAQ)
 * [工程管理](tutorial/project.md)
   * [创建工程](tutorial/project.md#创建工程)
   * [导入工程](tutorial/project.md#导入工程)
